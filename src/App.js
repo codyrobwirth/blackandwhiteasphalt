@@ -8,9 +8,10 @@ import Estimate from './pages/estimate/estimate';
 import Services from './pages/services/services';
 
 function App() {
+  const basename = '/blackandwhiteasphalt'; // Replace <your-repo-name> with your repository name
 
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
