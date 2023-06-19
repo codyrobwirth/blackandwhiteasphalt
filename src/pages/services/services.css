@@ -1,0 +1,19 @@
+/* .container {
+    padding: 40px;
+    background: #419be0;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .slick-slide img {
+    margin: auto;
+  }
+   */
+
+.slick-list {
+    height: 375px;
+}
+
+.form-content {
+    padding-bottom: 75px;
+}
